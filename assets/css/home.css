@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*, html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/image/backgroundhome.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(26, 26, 26);
+    align-content: center;
+}
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+        .brand {
+            background: linear-gradient(
+                to right,
+                #ffffff 20%,
+                #91c6ff 30%,
+                #ffffff 70%,
+                #ffa4be 80%
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 500% auto;
+            animation: textShine 5s ease-in-out infinite alternate;
+            font-family: "Special Gothic Expanded One", sans-serif;
+            padding-bottom: 20px;
+            font-size: 47px;
+            transition: all .3s ease-out;
+            letter-spacing: 2px;
+        }
+
+        @keyframes textShine {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+            .brand > a {
+                transition: all .5s ease-out;
+            }
+
+            @media (max-width: 600px) {
+                .brand > a {
+                    font-size: 40px;
+                    transition: all .5s ease-out;
+                }
+            }
+
+
+        .search {
+            padding-bottom: 16px;
+        }
+
+            .box-search > input {
+                width: 400px;
+                height: 32px;
+                border-radius: 10px 0px 0px 10px;
+                outline: none;
+                transition: all .5s ease-out;
+                border: none;
+            }
+
+            .box-search input[type="text"] {
+                padding-left: 20px;
+                font-size: 12px;
+            }
+
+            .box-search > button {
+                background-color: rgb(255, 255, 255);
+                border: none;
+                outline: none;
+                height: 32px;
+                width: 32px;
+                float: right;
+                border-radius: 0px 10px 10px 0px;
+                cursor: pointer;
+            }
+
+            .box-search > button:hover {
+                background-color: #2c8ee4;
+                transition: all .3s ease-out;
+            }
+
+            @media (max-width: 589px) {
+                .box-search > input {
+                    width: 280px;
+                }
+
+                .box-search > button {
+                    width: 24px;
+                }
+                
+                .search input[type="text"] {
+                    font-size: 10px;
+                }
+            }
+
+            .box-search::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+    .content1 {
+        max-width: 600px;
+        cursor: default;
+    }
+
+    .isicontent > a {
+        padding: 3px;
+        cursor: default;
+    }
+
+        .isicontent > a > button {
+            color: white;
+            background-color: rgb(36, 36, 36, 38%);
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            border-radius: 3px;
+            width: fit-content;
+            font-size: 9px;
+            border: none;
+            outline: none;
+            transition: all .5s ease-out;
+            cursor: pointer;
+        }
+
+        .isicontent > a > button:hover {
+            color: rgb(255, 255, 255);
+            background-color: rgb(37, 168, 255);
+            transition: all .1s ease-out;
+        }
+
+    @media (max-width: 390px) {
+        .isicontent > a > button {
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 8px;
+        }
+    }
+
+    @media (max-width: 589px) {
+        .isicontent > a > button {
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 8px;
+        }
+    }
+
+.isisubcontent {
+    display: flex;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+}
+
+    .category > span {
+        display: flex;
+        color: rgb(179, 179, 179);
+        font-size: 9px;
+        cursor: default;
+    }
+
+.widgetwarp {
+    background-color: rgb(6, 6, 6, 40%);
+    margin-left: 10px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+}
+
+    .widgetwarp > a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .widgetname {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    .widget {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-image: url(/assets/image/idk.gif);
+        background-size: cover;
+        background-position: center;
+    }
