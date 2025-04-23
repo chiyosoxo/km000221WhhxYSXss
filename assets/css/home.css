@@ -251,12 +251,43 @@
     }
 
     .widget-game {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
-        background-image: url(/assets/image/idk.gif);
+        /* background-image: url(/assets/image/idk.gif);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
+        background-color: #11ff00;
+    }
+
+    .widget-video {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        /* background-image: url(/assets/image/idk.gif);
+        background-size: cover;
+        background-position: center; */
+        background-color: #43aa3c;
+    }
+
+    .widget-picture {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        /* background-image: url(/assets/image/idk.gif);
+        background-size: cover;
+        background-position: center; */
+        background-color: #508249;
+    }
+
+    .widget-cosplay {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        /* background-image: url(/assets/image/idk.gif);
+        background-size: cover;
+        background-position: center; */
+        background-color: #393939;
     }
 
         @media (max-width: 529px) {
@@ -264,8 +295,16 @@
                 font-size: 9px;
             }
             .widget-game {
-                width: 14px;
-                height: 14px;
+                width: 8px;
+                height: 8px;
+            }
+            .widget-video {
+                width: 8px;
+                height: 8px;
+            }
+            .widget-picture {
+                width: 8px;
+                height: 8px;
             }
         }
 
