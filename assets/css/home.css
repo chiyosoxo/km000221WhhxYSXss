@@ -25,39 +25,6 @@
     }
 
 
-        /* .brand {
-            position: absolute;
-            left: 3vh;
-            top: 3vh;
-            background: linear-gradient(
-                to right,
-                #ffffff 20%,
-                #9ccbfd 30%,
-                #ffffff 70%,
-                #ffa1d5 80%
-            );
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-size: 500% auto;
-            animation: textShine 5s ease-in-out infinite alternate;
-            font-family: "Prompt", sans-serif;
-            font-weight: 900;
-            padding-bottom: 20px;
-            font-size: 18px;
-            transition: all .3s ease-out;
-            letter-spacing: 2px;
-        }
-
-        @keyframes textShine {
-            0% {
-                background-position: 0% 50%;
-            }
-            100% {
-                background-position: 100% 50%;
-            }
-        } */
-
         .brand {
             display: flex;
             position: fixed;
