@@ -55,7 +55,7 @@
                     }
                 }
 
-                @media (max-width: 390px) {
+                @media (max-width: 398px) {
                     .brand-2 {
                         display: flex;
                         align-items: center;
@@ -68,11 +68,6 @@
                     }
                 }
 
-
-.banner > img {
-    width: 200px;
-    padding-bottom: 20px;
-}
 
 
 .search-box {
@@ -120,7 +115,19 @@
                 box-sizing: border-box;
             }
 
-                @media (max-width: 570px) {
+                @media (max-width: 499px) {
+                    .search-box > form > input {
+                        width: 270px;
+                        height: 40px;
+                        transition: all .2s ease-in-out;
+                    }
+                    .search-box > form > button {
+                        height: 40px;
+                        transition: all .2s ease-in-out;
+                    }
+                }
+
+                @media (max-width: 580px) {
                     .search-box > form > input {
                         width: 270px;
                         transition: all .2s ease-in-out;
@@ -137,19 +144,19 @@
 
     .category-1 {
         display: flex;
-        padding-top: 12px;
+        padding-top: 15px;
     }
 
         .c1 > a {
             color: white;
             text-decoration: none;
             padding: 4px;
-            font-size: 12px;
+            font-size: 11px;
         }
 
             .c1 > a > span {
                 background-color: rgb(15, 15, 15, 40%);
-                padding: 4px 9px 4px 9px;
+                padding: 6px 9px 6px 9px;
                 border-radius: 3px;
                 transition: all .2s ease-in-out;
             }
