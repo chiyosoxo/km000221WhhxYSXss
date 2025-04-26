@@ -37,22 +37,17 @@
             display: flex;
         }
 
-            .brand-1 > a {
+            .bbrand-1-wrapper > a {
                 text-decoration: none;
             }
 
-            .brand-1 > a > span {
-                color: white;
-                font-size: 8px;
-                padding-top: 12px;
-            }
-
-                .brand-1 > a > img {
+                .brand-1-wrapper > a > img {
                     width: 170px;
                 }
 
-                .brand-1 > a > span > img {
-                    width: 28px;
+                .brand-1-wrapper > a > span > img {
+                    width: 26px;
+                    padding-right: 5px;
                 }
 
                     .brand-2 {
@@ -183,11 +178,13 @@
             .c1 > a > span:hover {
                 background-color: rgb(90, 170, 255);
                 transition: all .1s ease-in-out;
+                padding: 6px 9px 6px 9px;
             }
 
                 @media (max-width: 499px) {
                     .c1 > a {
                         font-size: 10px;
+                        padding: 6px 9px 6px 9px;
                     }
                 }
 
