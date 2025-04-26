@@ -83,13 +83,13 @@
 
 .popular-search {
     display: flex;
-    font-family: "ubuntu", sans-serif;
     padding-top: 8px;
 }
 
     .popular-content {
         display: flex;
         flex-direction: row;
+        font-family: "ubuntu", sans-serif;
     }
 
     .wrapper-popular {
@@ -124,6 +124,9 @@
                                 .bubble-popular > a {
                                     font-size: 7px;
                                 }
+                                .popular-content {
+                                    columns: 100vh;
+                                }
                                 .wrapper-popular > a {
                                     font-size: 2px;
                                 }
@@ -131,6 +134,7 @@
                      
 
      .wrapper-popular > a {
+        font-family: "ubuntu", sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
