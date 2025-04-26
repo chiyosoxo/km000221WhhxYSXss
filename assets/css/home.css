@@ -29,7 +29,8 @@
             position: fixed;
             top: 3vh;
             left: 3vh;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         
         
@@ -45,39 +46,101 @@
                     width: 170px;
                 }
 
-                .brand-1-wrapper > a > span > img {
-                    width: 26px;
-                    padding-right: 5px;
-                }
-
-                    .brand-2 {
-                        display: none;
+                    .brand-1-wrapper > a > span > img {
+                        width: 26px;
+                        padding-right: 5px;
                     }
 
-                        .brand-2 > a > img {
-                            width: 270px;
-                            padding-bottom: 10px;
+                        .brand-2 {
+                            display: none;
                         }
 
-                            @media (max-width: 529px) {
-                                .brand-1 > a > img {
-                                    font-size: 19px;
-                                    transition: all .3s ease-out;
-                                }
+                            .brand-2 > a > img {
+                                width: 270px;
+                                padding-bottom: 10px;
                             }
 
-                            @media (max-width: 490px) {
-                                .brand-2 {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    bottom: 30vh;
+                                @media (max-width: 529px) {
+                                    .brand-1 > a > img {
+                                        font-size: 19px;
+                                        transition: all .3s ease-out;
+                                    }
                                 }
 
-                                .brand-1 {
-                                    display: none;
+                                @media (max-width: 480px) {
+                                    .brand-2 {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        bottom: 30vh;
+                                    }
+
+                                    .brand-1 {
+                                        display: none;
+                                    }
+                                }
+
+
+.popular-search {
+    display: flex;
+    font-family: "ubuntu", sans-serif;
+    padding-top: 8px;
+}
+
+    .popular-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wrapper-popular {
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+    }
+
+            .bubble-popular > a  {
+                text-decoration: none;
+                color: white;
+                font-size: 9px;
+            }
+
+                .bubble-popular > a > span > img {
+                    width: 9px;
+                    height: 9px;
+                    padding-right: 5px;
+                    color: white;
+                }
+
+                    .bubble-popular > a > span {
+                        background-color: rgba(254, 0, 0, 0.5);
+                        padding: 4px 11px 4px 11px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 3px 0px 0px 3px;
+                    }
+
+                            @media (max-width: 480px) {
+                                .bubble-popular > a {
+                                    font-size: 7px;
+                                }
+                                .wrapper-popular > a {
+                                    font-size: 2px;
                                 }
                             }
+                     
+
+     .wrapper-popular > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 28px;
+        font-size: 8px;
+        border-radius: 0px 3px 3px 0px;
+     }
 
 
 
@@ -86,7 +149,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 8px 10px #0000001c;
 }
 
     .search-box > form > button {
@@ -145,7 +207,7 @@
                 @media (max-width: 600px) {
                     .search-box > form > input {
                         width: 270px;
-                        transition: all .2s ease-in-out;
+                        transition: all .1.20s ease-in-out;
                     }
                 }
 
@@ -183,6 +245,15 @@
                 @media (max-width: 450px) {
                     .c1 > a {
                         font-size: 10px;
+                    }
+                    .category {
+                        display: flex;
+                    }
+                }
+
+                @media (max-width: 529px) {
+                    .category {
+                        display: none;
                     }
                 }
 
