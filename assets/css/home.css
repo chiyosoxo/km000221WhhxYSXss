@@ -452,7 +452,6 @@
         
         .r-tooltip .r-tooltip-image {
             visibility: hidden;
-            display: flexbox;
             align-items: center;
             justify-content: center;
             color: #fff;
