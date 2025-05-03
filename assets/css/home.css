@@ -481,6 +481,7 @@
                 @media (max-width: 999px) {
                     .r-tooltip-image > img {
                         width: 210px;
+                        margin-left: 10px;
                     }
                 }
 
