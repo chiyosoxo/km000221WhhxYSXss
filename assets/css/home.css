@@ -486,17 +486,17 @@
 
                 @media (max-width: 999px) {
                     .r-tooltip .r-tooltip-image {
-                        padding-left: 40px;
+                        padding-left: 90px;
                     }
                     .r-tooltip-image > img {
                         width: 210px;
                     }
                 }
 
-                @media(max-height: 690px) {
+                @media(max-height: 599px) {
                     .r-tooltip-image > img {
                         width: 200px;
-                        padding-left: 55px;
+                        padding-left: 0px;
                         padding-bottom: 10px;
                     }
                 }
