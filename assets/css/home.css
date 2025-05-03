@@ -462,7 +462,7 @@
             position: absolute;
             z-index: 1;
             bottom: 195%;
-            margin-left: -62px;
+            margin-left: -59px;
             opacity: 0;
             transition: opacity 0.3s;
         }
