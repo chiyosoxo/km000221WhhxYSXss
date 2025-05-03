@@ -462,7 +462,6 @@
             position: absolute;
             z-index: 1;
             bottom: 195%;
-            left: -6vh;
             margin-left: -60px;
             opacity: 0;
             transition: opacity 0.3s;
@@ -480,9 +479,7 @@
             }
 
                 @media (max-width: 499px) {
-                    .r-tooltip-image > img {
-                        width: 120px;
-                    }
+                    
                 }
 
                 @media (max-width: 999px) {
