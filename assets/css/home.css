@@ -452,6 +452,7 @@
         
         .r-tooltip .r-tooltip-image {
             visibility: hidden;
+            display:grid;
             align-items: center;
             justify-content: center;
             color: #fff;
@@ -470,7 +471,6 @@
             .r-tooltip:hover .r-tooltip-image {
                 visibility: visible;
                 opacity: 1;
-                display: flex;
             }
 
             .r-tooltip-image > img {
