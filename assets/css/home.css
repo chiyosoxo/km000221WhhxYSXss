@@ -496,7 +496,7 @@
                 @media(max-height: 690px) {
                     .r-tooltip-image > img {
                         width: 200px;
-                        padding-left: 0px;
+                        padding-left: 55px;
                         padding-bottom: 10px;
                     }
                 }
