@@ -351,7 +351,6 @@
 
     .r-post {
         display: flex;
-        padding: 10px;
         align-items: center;
     }
 
@@ -407,10 +406,7 @@
             .post-recommended {
                 display: flex;
                 flex-direction: column;
-            }
-            .r-post {
-                padding: 1px;
-                margin-left: 10px;
+                padding-left: 10px;
             }
             .r-icon {
                 width: 30px;
@@ -473,6 +469,7 @@
     .r-tooltip {
         position: relative;
         display: inline-block;
+        width: 100%;
     }
 
     .r-tooltip > a {
@@ -508,7 +505,7 @@
                 @media(max-width: 599px) {
                     .r-tooltip-image > img {
                         width: 200px;
-                        margin-left: 20px;
+                        margin-left: 17px;
                     }
                 }
 
