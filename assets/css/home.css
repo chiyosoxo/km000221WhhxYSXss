@@ -505,7 +505,7 @@
                 @media(max-width: 599px) {
                     .r-tooltip-image > img {
                         width: 200px;
-                        margin-left: 17px;
+                        margin-left: 10px;
                     }
                 }
 
