@@ -506,6 +506,7 @@
                     .r-tooltip-image > img {
                         width: 200px;
                         margin-left: 10px;
+                        margin-bottom: 3px;
                     }
                 }
 
