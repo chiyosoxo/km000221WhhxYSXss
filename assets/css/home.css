@@ -227,6 +227,14 @@
                     }
                 }
 
+
+
+
+
+
+
+/* POST BAR */
+
     .post-bar {
         display: flex;
         align-items: center;
@@ -457,8 +465,9 @@
 
 
 
-/* TOOLTIP 1 */
 
+
+/* TOOLTIP 1 */
 
     .r-tooltip {
         position: relative;
@@ -614,7 +623,7 @@
                 @media (max-width: 440px) {
                     .p-title-wrapper > p {
                         width: fit-content;
-                        max-width: 186px;
+                        max-width: 198px;
                         white-space: nowrap;
                         overflow: hidden;
                         text-overflow: ellipsis;
