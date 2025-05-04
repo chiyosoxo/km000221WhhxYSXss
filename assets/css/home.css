@@ -157,14 +157,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(23, 23, 23);
-    height: 70px;
+    height: 30px;
     border-radius: 10px 10px 0px 0px;
+    padding: 20px;
 }
 
     .name > a {
         display: flex;
         flex-direction: row;
-        padding-left: 20px;
         text-decoration: none;
     }
 
@@ -185,7 +185,6 @@
     .b-n-right {
         display: flex;
         font-family: "ubuntu", sans-serif;
-        padding-right: 20px;
         font-weight: 500;
     }
 
