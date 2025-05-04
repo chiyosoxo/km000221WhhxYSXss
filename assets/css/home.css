@@ -623,7 +623,7 @@
                 @media (max-width: 440px) {
                     .p-title-wrapper > p {
                         width: fit-content;
-                        max-width: 198px;
+                        max-width: 178px;
                         white-space: nowrap;
                         overflow: hidden;
                         text-overflow: ellipsis;
