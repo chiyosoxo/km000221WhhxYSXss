@@ -161,29 +161,21 @@
     border-radius: 10px 10px 0px 0px;
 }
 
-    .name {
+    .name > a {
         display: flex;
+        flex-direction: row;
         padding-left: 20px;
+        text-decoration: none;
     }
 
-        .name > a > img {
-            width: 230px;
-        }
-
-            @media (max-width: 400px) {
-                .name > a > img {
-                    width: 160px;
-                }
-            }
-
-                .name1 > a {
+                .name1 {
                     font-family: "Special Gothic Expanded One";
                     color: white;
                     text-decoration: none;
                     font-size: 30px;
                 }
                 
-                    .name2 > a {
+                    .name2 {
                         font-family: "Special Gothic Expanded One";
                         color: rgb(252, 214, 143);
                         text-decoration: none;
@@ -526,7 +518,7 @@
     .title-article {
         display: flex;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 20px;
         font-family: "ubuntu", sans-serif;
         padding: 5px;
         border-radius: 6px 6px 0px 0px;
