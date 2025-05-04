@@ -714,7 +714,7 @@
 
             @media(max-width: 599px) {
                 .r-tooltip-image-2 > img {
-                    width: 190px;
+                    width: 250px;
                     height: 130px;
                     margin-left: 8px;
                     margin-bottom: 3px;
@@ -769,6 +769,7 @@
         height: 20px;
         align-items: center;
         padding: 20px;
+        border-bottom: 1px solid rgb(88, 88, 88);
     }
 
         .r-tooltip-2 > a {
@@ -882,6 +883,61 @@
         }
 
 
+/* PAGINATION */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "ubuntu", sans-serif;
+}
+
+    .pagination > ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(13, 13, 13); 
+        width: 100%;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+        .pagination > ul > li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            padding: 10px;
+            cursor: pointer;
+            
+        }
+
+        .page {
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+            .page > active {
+                background-color: #8c8989;
+            }
+
+            .page:hover {
+                display: flex;
+                align-items: center;
+                background-color: rgba(75, 75, 75, 0.084);
+                height: 3px;
+                border-radius: 4px;
+            }
+
+                @media(max-width: 599px) {
+                    .pagination > ul {
+                        font-size: 10px;
+                    }
+                }
+
+
 
 /* role website */
 
@@ -975,9 +1031,6 @@
 }
 
 
-
-
-
 /* DEVICE ROLE */
 
 .device-android {
@@ -994,9 +1047,18 @@
 }
 
 
-
-
-
+.device-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(153, 178, 255);
+    background-color: rgb(54, 0, 134);
+    font-size: 9px;
+    padding: 0px 5px 0px 5px;
+    height: 13px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
 
     @media (max-height: 450px) {
         .admin {
@@ -1024,6 +1086,11 @@
             height: 11px;
         }
         .content-video {
+            font-size: 6px;
+            padding: 0px 4px 0px 4px;
+            height: 11px;
+        }
+        .device-androi {
             font-size: 6px;
             padding: 0px 4px 0px 4px;
             height: 11px;
