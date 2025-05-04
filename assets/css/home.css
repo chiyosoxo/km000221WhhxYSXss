@@ -623,7 +623,7 @@
                 @media (max-width: 440px) {
                     .p-title-wrapper > p {
                         width: fit-content;
-                        max-width: 178px;
+                        max-width: 205px;
                         white-space: nowrap;
                         overflow: hidden;
                         text-overflow: ellipsis;
@@ -835,7 +835,7 @@
         font-size: 11px;
     }
 
-            @media (max-width: 440px) {
+            /* @media (max-width: 440px) {
                 .p-title-wrapper > p {
                     width: fit-content;
                     max-width: 186px;
@@ -853,7 +853,7 @@
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
-            }
+            } */
 
             @media (max-height: 450px) {
                 .p-post-normal {
