@@ -710,7 +710,7 @@
         padding: 9px;
         background-color: rgb(15, 15, 15);
         height: fit-content;
-        width: 230px;
+        width: 270px;
         align-items: center;
         justify-content: center;
         border-radius: 0px 0px 5px 5px;
@@ -733,12 +733,12 @@
     }
 
     .title-tooltip-dc > p {
-        width:190px;
+        width:261px;
         max-height: 30px;
         white-space: nowrap;
         overflow:hidden;
         text-overflow:clip;
-        font-size: 10px;
+        font-size: 9px;
         color: rgb(118, 118, 118);
     }
 
@@ -750,8 +750,8 @@
         }
 
         .r-tooltip-image-2 > img {
-            width: 248px;
-            height: 130px;
+            width: 288px;
+            height: 160px;
             object-fit: cover;
             border-radius: 5px;
             border-radius: 5px 5px 0px 0px;
@@ -768,6 +768,7 @@
                 }
                 .title-tooltip-dc > p {
                     font-size: 7px;
+                    width: 199px;
                 }
             }
 
